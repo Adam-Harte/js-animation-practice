@@ -20,6 +20,11 @@ button {
     transition: font-size 3s, color 2s;
 }
 
+#train {
+    position: relative;
+    cursor: pointer;
+}
+
 /* define a keyframe animation */
 @keyframes go-left-right {
     from { left: 0px; }
